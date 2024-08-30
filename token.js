@@ -46,7 +46,7 @@ function go(){
 $('.load').fadeIn();
 audio4.play();    
 audio4.loop = false;
-document.getElementById('kirim').innerHTML = "Mohon tunggu sebentar...";
+
 setTimeout(function(){  
 location.href='https://Pahhe.wasap.my';
 $('.load').fadeOut();
